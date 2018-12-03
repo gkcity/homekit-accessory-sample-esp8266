@@ -1,6 +1,6 @@
 # Accessory sample (lightbulb) on esp32
 
-本项目源代码由 tinyhap.com 生成
+本项目源代码由 http://tinyhap.com 生成
 
 ## 配置编译环境
 1. 下载包含homekit的esp-idf分支:
@@ -25,7 +25,7 @@ make falsh
 1. 打开串口，观察LOG。
 2. 使用iOS里的家庭app绑定并测试此设备。
 
-## Setup Code
+## 配置
 ```
 031-45-154
 ```
