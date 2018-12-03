@@ -15,7 +15,7 @@
 #include "HomeKitStack.h"
 
 #define EXAMPLE_ESP_WIFI_SSID      "gkct"
-#define EXAMPLE_ESP_WIFI_PASS      "gkct123"
+#define EXAMPLE_ESP_WIFI_PASS      "hellogkct"
 
 /* FreeRTOS event group to signal when we are connected*/
 static EventGroupHandle_t wifi_event_group;
