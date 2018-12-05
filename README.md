@@ -4,7 +4,9 @@
 
 ## 配置编译环境
 1. 下载ESP8266的sdk:
+```bash
 git clone https://github.com/espressif/ESP8266_RTOS_SDK.git
+```
 
 2. esp-idf编译环境的配置,请参考官方文档
 
