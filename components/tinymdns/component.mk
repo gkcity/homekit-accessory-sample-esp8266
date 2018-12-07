@@ -2,13 +2,13 @@
 # Component Makefile
 #
 COMPONENT_ADD_INCLUDEDIRS += tinymdns/source/src/dns-common \
-                             tinymdns/source/src/multicast-dns \
-                             tinymdns/source/src/dns-server-captive-portal
+                             tinymdns/source/src/dns-server \
+			     tinymdns/source/src/mdns \
 
-COMPONENT_SRCDIRS += tinymdns/source/src/multicast-dns \
-		     tinymdns/source/src/dns-common/codec \
+COMPONENT_SRCDIRS += tinymdns/source/src/dns-common/codec \
 		     tinymdns/source/src/dns-common/message \
-		     tinymdns/source/src/dns-server-captive-portal
+		     tinymdns/source/src/dns-server \
+                     tinymdns/source/src/mdns \
 
 CFLAGS += -DTINY_STATIC \
           -DESP8266 \
