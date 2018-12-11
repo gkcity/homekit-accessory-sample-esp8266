@@ -30,6 +30,7 @@ COMPONENT_SRCDIRS += tiny/source/src/TinyBase \
 		     tiny/source/src/Netty/channel \
 		     tiny/source/src/Netty/channel/stream \
 		     tiny/source/src/Netty/channel/multicast \
+		     tiny/source/src/Netty/channel/unicast \
 		     tiny/source/src/Netty/codec-http \
 		     tiny/source/src/Netty/codec-websocket \
 		     tiny/source/src/Netty/bootstrap \

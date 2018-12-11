@@ -14,3 +14,7 @@
 	path = components/tinymdns/tinymdns
 	url = https://github.com/gkcity/tinymdns.git
 	branch = master
+[submodule "components/web-captive-portal/web-captive-portal"]
+	path = components/web-captive-portal/web-captive-portal
+	url = https://github.com/gkcity/web-captive-portal.git
+	branch = master
